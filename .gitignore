@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Local datasets and generated outputs
+data/EWS-Dataset/
+data/DataforYuetal/
+data/train/
+data/validation/
+data/test/
+results/
+
+# Large model artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Archives and OS files
+*.zip
+.DS_Store
+Thumbs.db
